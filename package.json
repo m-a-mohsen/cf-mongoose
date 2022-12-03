@@ -1,0 +1,22 @@
+{
+  "name": "cf-mongoose",
+  "version": "1.0.0",
+  "description": "This is a solution to task 2.8: The Business Logic Layer. Where movies database was previously stored in a mongoDB Nosql database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-a-mohsen/cf-mongoose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-a-mohsen/cf-mongoose/issues"
+  },
+  "homepage": "https://github.com/m-a-mohsen/cf-mongoose#readme",
+  "dependencies": {
+    "mongoose": "^6.7.5"
+  }
+}
