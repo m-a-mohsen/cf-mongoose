@@ -42,9 +42,16 @@ Users should be able to:
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 To see how you can add code snippets, see below:
+#### Mongo instlation on Ubuntu 22.04 Jammy:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
+there was now direct instalation method for lts 22.04, instalation script was found on [Mongodb fourum](https://www.mongodb.com/community/forums/t/installing-mongodb-over-ubuntu-22-04/159931/89)
+```bash
+wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc |  gpg --dearmor | sudo tee /usr/share/keyrings/mongodb.gpg > /dev/null
+
+echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+
+sudo apt update
+sudo apt install mongodb-org
 ```
 ```css
 .proud-of-this-css {
